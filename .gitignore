@@ -1,0 +1,30 @@
+# Secret keys — NEVER upload these
+.env
+.env.*
+
+# Python virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# Database and AI index files
+database/
+*.pkl
+*.index
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# IDE files
+.vscode/
+.idea/
+
+# Log files
+*.log
+
+# OS junk files
+.DS_Store
+Thumbs.db
+
+# Generated reports
+reports/
